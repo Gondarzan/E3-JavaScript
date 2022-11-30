@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/LogoDePicadilla 1.png" alt="" class="logo">
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#">HOME</a>                    
+                </li>
+                <li>
+                    <a href="#">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+                <li>
+                    <a href="#">AYUDA</a>
+                </li>
+            </ul>
+    </header>
+
+    <main>
+        <h1>E3 - JavaScript</h1>
+        <form action="form_container" id="form">
+            <p class="form_title">Ingresar números de las pizzas</p>
+            <div class="form__field">
+                <input type="number" placeholder="Ingresar número" class="form__input" id="numeroPizza"   />
+                <small></small>
+            </div>    
+            <input type="submit" class="form__submit__btn" value="Ingresar" id="ingresarButton" />
+        </form>
+
+
+        <div class="card_pizza" id="cardPizza">
+            <img src="assets/" id="imgPizza" style="display: none;" >
+            <div class="card_text">
+                <h2></h2>
+                <h3></h3>
+            </div>
+        </div>
+        <script src="./main.js"></script>  
+    </main>  
+
+</body>
+</html>

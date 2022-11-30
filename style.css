@@ -1,0 +1,163 @@
+
+:root{
+    --background:#060606;
+    --background-body: #141414;
+    --background-lg: #1F1F1F;
+    --bg-border-grey: #C1C1C1;
+    --bg-bbte-grey: #aaaaaa;  
+    --bg-bgrey: #616161;    
+    --text-white: #ffffff;
+    --text-gold: #CAA462;
+    --bg-facebook: #1877F2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/*HEADER*/ 
+
+body{
+    background-color: var(--background);
+}
+
+header{
+    background-image: url("img_background.png");
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar, .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    margin: 50px;
+    height: 90px;
+}
+
+.navbar-list a{
+    font-family: 'Literata', serif;
+    font-size: 13pt;
+    color: var(--text-white);
+    margin: 20px;
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  
+}
+
+
+h1{
+    color: #ffffff;
+}
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_title{
+    color: #aaaaaa;
+    padding: 0px 0 20px 0;
+}
+
+.form__input{
+    text-align: center;
+    color: #aaaaaa;
+
+}
+
+
+.form__submit__btn{
+    color: var(--text-white);
+    background: var(--text-gold);
+    padding: 3px 60px;
+    cursor: pointer;
+}
+
+.form__submit__btn:hover{
+    padding: 5px 75px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.card_pizza{
+    margin: 30px;
+    display: flex;  
+    justify-content: center;
+
+    background-color: #060606;
+    width: 600px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.card_text{
+    width: 350px;
+    background-color: #b68f4d;
+}
+
+.card_pizza h2{
+    position: absolute;
+    margin: 50px 0px 0px 15px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card_pizza h3{
+    position: absolute;
+    margin: 85px 0px 0px 15px;
+    font-size: 30px;
+    font-weight: 300;
+ 
+}
+
+
+.card_pizza img{
+    height: 180px;
+    width: 250px;
+}
+
+/* Error / Success */
+.form__field.error input {
+    border: 1px solid #dc3545;
+}
+  
+.form__field small {
+    color: #dc3545;
+    max-width: 350px;
+    text-align: center;
+    padding: 7px 0;
+}
+
